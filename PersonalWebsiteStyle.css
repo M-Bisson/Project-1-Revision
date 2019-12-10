@@ -1,0 +1,128 @@
+#homepage {
+    background-color:lavender;
+}
+h1 {
+    border:50px solid transparent;
+    text-align: center;
+    color:black;
+    margin-left:300px;
+    margin-right:300px
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    font-family:"Georgia", serif; 
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+h5 {
+    font-size: 20px;
+    text-align:center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+p {
+    text-align:center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color:black
+}
+a:link {
+    color:darkgrey;
+}
+a:visited {
+    color:darkgray;
+}
+a:hover {
+    color:lightgrey;
+}
+#grad1 {
+    background-image:linear-gradient(white, lightslategray);
+}
+#grad2 {
+    background-image:linear-gradient(white, lightgrey);
+}
+#grad3 {
+    background-image:linear-gradient(white, lightblue);
+}
+.topnav a {
+    padding: 10px;
+    text-align:center;
+    color:black;
+}
+.topnav {
+    border-bottom: 3px solid black;
+    padding: 15px;
+    background-color:cadetblue;
+    text-align:center;
+    overflow:hidden;
+}
+#greynav{
+    background-color: grey;
+}
+#lightbluenav {
+    background-color: lightblue;
+}
+#lightslategreynav {
+    background-color: lightslategray;
+}
+.topnav a:hover {
+    color:white;
+    border: 1px solid black;
+}
+.center {
+    padding:30px;
+    background-color:transparent;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width; 50%;
+}
+.footer {
+    position:relative;
+    width: 100%;
+    margin-top: 40px;
+    height: 40px;
+    padding:10px;
+    background-color:cadetblue;
+    color: black;
+    text-align: center;
+}
+#name {
+    font: Jazz LET;
+}
+@keyframes blink { 
+   from { border-color: black; } 
+    to { border-color: lavender;}
+}
+#linkedIn{
+    border:1px solid black;
+    animation: blink .5s infinite alternate;
+}
+/*border Ids*/
+#cloudborder {
+    border-image: url(cloudborder.jpg) 10% ;
+    background-color:lavender;
+    color:black;
+}
+#treesborder {
+    background-image: url(treesborder.jpg);
+    background-position: center;
+}
+#treesandsunborder {
+    background-image: url(treeandsunborder.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#waterborder {
+    border-image: url(waterborder.jpg) 10%;
+    background-color:lightblue;
+    color:black;
+}
